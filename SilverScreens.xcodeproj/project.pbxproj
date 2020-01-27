@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59B5BC722792174C3BFD8BC1 /* Pods_SilverScreensTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC81DC12F471B1C81A4A6C5 /* Pods_SilverScreensTests.framework */; };
+		A59C921EAEB0618C696A05CF /* Pods_SilverScreens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B04F1BAFD32C3AB9510236 /* Pods_SilverScreens.framework */; };
 		E4CDFDC723D9099D0067239A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDFDC623D9099D0067239A /* AppDelegate.swift */; };
 		E4CDFDC923D9099D0067239A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDFDC823D9099D0067239A /* SceneDelegate.swift */; };
 		E4CDFDCB23D9099D0067239A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDFDCA23D9099D0067239A /* ViewController.swift */; };
@@ -15,6 +17,9 @@
 		E4CDFDD323D909A40067239A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CDFDD123D909A40067239A /* LaunchScreen.storyboard */; };
 		E4CDFDDE23D909A40067239A /* SilverScreensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDFDDD23D909A40067239A /* SilverScreensTests.swift */; };
 		E4CDFDE923D909A40067239A /* SilverScreensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDFDE823D909A40067239A /* SilverScreensUITests.swift */; };
+		E4CDFDF723D90FDC0067239A /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDFDF623D90FDC0067239A /* MoviesViewController.swift */; };
+		E4CDFDFD23D91CE10067239A /* FilmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDFDFC23D91CE10067239A /* FilmCell.swift */; };
+		F257FFF1D2EF9166106C0E00 /* Pods_SilverScreens_SilverScreensUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55E9CB64F5DF3FD82720207 /* Pods_SilverScreens_SilverScreensUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		069D11B389CD7907EA8B85F7 /* Pods-SilverScreens-SilverScreensUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverScreens-SilverScreensUITests.release.xcconfig"; path = "Target Support Files/Pods-SilverScreens-SilverScreensUITests/Pods-SilverScreens-SilverScreensUITests.release.xcconfig"; sourceTree = "<group>"; };
+		106918413D028EB770F9B2F5 /* Pods-SilverScreens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverScreens.release.xcconfig"; path = "Target Support Files/Pods-SilverScreens/Pods-SilverScreens.release.xcconfig"; sourceTree = "<group>"; };
+		145527CD49FA23C1158C5D3C /* Pods-SilverScreensTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverScreensTests.release.xcconfig"; path = "Target Support Files/Pods-SilverScreensTests/Pods-SilverScreensTests.release.xcconfig"; sourceTree = "<group>"; };
+		4DC81DC12F471B1C81A4A6C5 /* Pods_SilverScreensTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilverScreensTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD0E554614E4756B77CDBEB /* Pods-SilverScreens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverScreens.debug.xcconfig"; path = "Target Support Files/Pods-SilverScreens/Pods-SilverScreens.debug.xcconfig"; sourceTree = "<group>"; };
+		83B04F1BAFD32C3AB9510236 /* Pods_SilverScreens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilverScreens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8979F3100084281E095A866C /* Pods-SilverScreens-SilverScreensUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverScreens-SilverScreensUITests.debug.xcconfig"; path = "Target Support Files/Pods-SilverScreens-SilverScreensUITests/Pods-SilverScreens-SilverScreensUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C93A79E16E4EEFE1E9C5A09F /* Pods-SilverScreensTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverScreensTests.debug.xcconfig"; path = "Target Support Files/Pods-SilverScreensTests/Pods-SilverScreensTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E4CDFDC323D9099D0067239A /* SilverScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilverScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CDFDC623D9099D0067239A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4CDFDC823D9099D0067239A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,9 @@
 		E4CDFDE423D909A40067239A /* SilverScreensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverScreensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CDFDE823D909A40067239A /* SilverScreensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverScreensUITests.swift; sourceTree = "<group>"; };
 		E4CDFDEA23D909A40067239A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4CDFDF623D90FDC0067239A /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		E4CDFDFC23D91CE10067239A /* FilmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCell.swift; sourceTree = "<group>"; };
+		F55E9CB64F5DF3FD82720207 /* Pods_SilverScreens_SilverScreensUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilverScreens_SilverScreensUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A59C921EAEB0618C696A05CF /* Pods_SilverScreens.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59B5BC722792174C3BFD8BC1 /* Pods_SilverScreensTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F257FFF1D2EF9166106C0E00 /* Pods_SilverScreens_SilverScreensUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73284D3BEE75FF0752039E62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BD0E554614E4756B77CDBEB /* Pods-SilverScreens.debug.xcconfig */,
+				106918413D028EB770F9B2F5 /* Pods-SilverScreens.release.xcconfig */,
+				8979F3100084281E095A866C /* Pods-SilverScreens-SilverScreensUITests.debug.xcconfig */,
+				069D11B389CD7907EA8B85F7 /* Pods-SilverScreens-SilverScreensUITests.release.xcconfig */,
+				C93A79E16E4EEFE1E9C5A09F /* Pods-SilverScreensTests.debug.xcconfig */,
+				145527CD49FA23C1158C5D3C /* Pods-SilverScreensTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E1E1C36E0E4459ED91947D50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83B04F1BAFD32C3AB9510236 /* Pods_SilverScreens.framework */,
+				F55E9CB64F5DF3FD82720207 /* Pods_SilverScreens_SilverScreensUITests.framework */,
+				4DC81DC12F471B1C81A4A6C5 /* Pods_SilverScreensTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E4CDFDBA23D9099D0067239A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +126,8 @@
 				E4CDFDDC23D909A40067239A /* SilverScreensTests */,
 				E4CDFDE723D909A40067239A /* SilverScreensUITests */,
 				E4CDFDC423D9099D0067239A /* Products */,
+				73284D3BEE75FF0752039E62 /* Pods */,
+				E1E1C36E0E4459ED91947D50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +145,14 @@
 			isa = PBXGroup;
 			children = (
 				E4CDFDC623D9099D0067239A /* AppDelegate.swift */,
+				E4CDFDCF23D909A40067239A /* Assets.xcassets */,
+				E4CDFDD423D909A40067239A /* Info.plist */,
+				E4CDFDD123D909A40067239A /* LaunchScreen.storyboard */,
+				E4CDFDCC23D9099D0067239A /* Main.storyboard */,
+				E4CDFDF623D90FDC0067239A /* MoviesViewController.swift */,
 				E4CDFDC823D9099D0067239A /* SceneDelegate.swift */,
 				E4CDFDCA23D9099D0067239A /* ViewController.swift */,
-				E4CDFDCC23D9099D0067239A /* Main.storyboard */,
-				E4CDFDCF23D909A40067239A /* Assets.xcassets */,
-				E4CDFDD123D909A40067239A /* LaunchScreen.storyboard */,
-				E4CDFDD423D909A40067239A /* Info.plist */,
+				E4CDFDFC23D91CE10067239A /* FilmCell.swift */,
 			);
 			path = SilverScreens;
 			sourceTree = "<group>";
@@ -135,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4CDFDED23D909A40067239A /* Build configuration list for PBXNativeTarget "SilverScreens" */;
 			buildPhases = (
+				B5F98604656BB92AEA543574 /* [CP] Check Pods Manifest.lock */,
 				E4CDFDBF23D9099D0067239A /* Sources */,
 				E4CDFDC023D9099D0067239A /* Frameworks */,
 				E4CDFDC123D9099D0067239A /* Resources */,
+				766919D144F05359E77879BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4CDFDF023D909A40067239A /* Build configuration list for PBXNativeTarget "SilverScreensTests" */;
 			buildPhases = (
+				C2FEE8B81BED18D57E9B6464 /* [CP] Check Pods Manifest.lock */,
 				E4CDFDD523D909A40067239A /* Sources */,
 				E4CDFDD623D909A40067239A /* Frameworks */,
 				E4CDFDD723D909A40067239A /* Resources */,
@@ -170,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4CDFDF323D909A40067239A /* Build configuration list for PBXNativeTarget "SilverScreensUITests" */;
 			buildPhases = (
+				404926916E963D33B275845F /* [CP] Check Pods Manifest.lock */,
 				E4CDFDE023D909A40067239A /* Sources */,
 				E4CDFDE123D909A40067239A /* Frameworks */,
 				E4CDFDE223D909A40067239A /* Resources */,
+				E207F03124F4EF1AF209EA96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +306,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		404926916E963D33B275845F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SilverScreens-SilverScreensUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		766919D144F05359E77879BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SilverScreens/Pods-SilverScreens-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SilverScreens/Pods-SilverScreens-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SilverScreens/Pods-SilverScreens-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F98604656BB92AEA543574 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SilverScreens-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2FEE8B81BED18D57E9B6464 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SilverScreensTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E207F03124F4EF1AF209EA96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SilverScreens-SilverScreensUITests/Pods-SilverScreens-SilverScreensUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SilverScreens-SilverScreensUITests/Pods-SilverScreens-SilverScreensUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SilverScreens-SilverScreensUITests/Pods-SilverScreens-SilverScreensUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4CDFDBF23D9099D0067239A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -262,6 +417,8 @@
 				E4CDFDCB23D9099D0067239A /* ViewController.swift in Sources */,
 				E4CDFDC723D9099D0067239A /* AppDelegate.swift in Sources */,
 				E4CDFDC923D9099D0067239A /* SceneDelegate.swift in Sources */,
+				E4CDFDF723D90FDC0067239A /* MoviesViewController.swift in Sources */,
+				E4CDFDFD23D91CE10067239A /* FilmCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +589,7 @@
 		};
 		E4CDFDEE23D909A40067239A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD0E554614E4756B77CDBEB /* Pods-SilverScreens.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +608,7 @@
 		};
 		E4CDFDEF23D909A40067239A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106918413D028EB770F9B2F5 /* Pods-SilverScreens.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +627,7 @@
 		};
 		E4CDFDF123D909A40067239A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93A79E16E4EEFE1E9C5A09F /* Pods-SilverScreensTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +650,7 @@
 		};
 		E4CDFDF223D909A40067239A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145527CD49FA23C1158C5D3C /* Pods-SilverScreensTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +673,7 @@
 		};
 		E4CDFDF423D909A40067239A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8979F3100084281E095A866C /* Pods-SilverScreens-SilverScreensUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +694,7 @@
 		};
 		E4CDFDF523D909A40067239A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069D11B389CD7907EA8B85F7 /* Pods-SilverScreens-SilverScreensUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

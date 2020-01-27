@@ -1,0 +1,6 @@
+framework module Pods_SilverScreens_SilverScreensUITests {
+  umbrella header "Pods-SilverScreens-SilverScreensUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
