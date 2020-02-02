@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		59B5BC722792174C3BFD8BC1 /* Pods_SilverScreensTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC81DC12F471B1C81A4A6C5 /* Pods_SilverScreensTests.framework */; };
 		A59C921EAEB0618C696A05CF /* Pods_SilverScreens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B04F1BAFD32C3AB9510236 /* Pods_SilverScreens.framework */; };
+		E41ED03623E2418500348F1E /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41ED03523E2418500348F1E /* MovieGridViewController.swift */; };
+		E41ED03A23E244DF00348F1E /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41ED03923E244DF00348F1E /* MovieGridCell.swift */; };
 		E4CDFDC723D9099D0067239A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDFDC623D9099D0067239A /* AppDelegate.swift */; };
 		E4CDFDC923D9099D0067239A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDFDC823D9099D0067239A /* SceneDelegate.swift */; };
 		E4CDFDCB23D9099D0067239A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDFDCA23D9099D0067239A /* ViewController.swift */; };
@@ -19,6 +21,7 @@
 		E4CDFDE923D909A40067239A /* SilverScreensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDFDE823D909A40067239A /* SilverScreensUITests.swift */; };
 		E4CDFDF723D90FDC0067239A /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDFDF623D90FDC0067239A /* MoviesViewController.swift */; };
 		E4CDFDFD23D91CE10067239A /* FilmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CDFDFC23D91CE10067239A /* FilmCell.swift */; };
+		E4CEA35C23E080FA00D5808D /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CEA35B23E080FA00D5808D /* MovieDetailsViewController.swift */; };
 		F257FFF1D2EF9166106C0E00 /* Pods_SilverScreens_SilverScreensUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55E9CB64F5DF3FD82720207 /* Pods_SilverScreens_SilverScreensUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +51,8 @@
 		83B04F1BAFD32C3AB9510236 /* Pods_SilverScreens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilverScreens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8979F3100084281E095A866C /* Pods-SilverScreens-SilverScreensUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverScreens-SilverScreensUITests.debug.xcconfig"; path = "Target Support Files/Pods-SilverScreens-SilverScreensUITests/Pods-SilverScreens-SilverScreensUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C93A79E16E4EEFE1E9C5A09F /* Pods-SilverScreensTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SilverScreensTests.debug.xcconfig"; path = "Target Support Files/Pods-SilverScreensTests/Pods-SilverScreensTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E41ED03523E2418500348F1E /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		E41ED03923E244DF00348F1E /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		E4CDFDC323D9099D0067239A /* SilverScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilverScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CDFDC623D9099D0067239A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4CDFDC823D9099D0067239A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +69,7 @@
 		E4CDFDEA23D909A40067239A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4CDFDF623D90FDC0067239A /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		E4CDFDFC23D91CE10067239A /* FilmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCell.swift; sourceTree = "<group>"; };
+		E4CEA35B23E080FA00D5808D /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		F55E9CB64F5DF3FD82720207 /* Pods_SilverScreens_SilverScreensUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilverScreens_SilverScreensUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -105,7 +111,6 @@
 				C93A79E16E4EEFE1E9C5A09F /* Pods-SilverScreensTests.debug.xcconfig */,
 				145527CD49FA23C1158C5D3C /* Pods-SilverScreensTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +149,7 @@
 		E4CDFDC523D9099D0067239A /* SilverScreens */ = {
 			isa = PBXGroup;
 			children = (
+				E41ED03523E2418500348F1E /* MovieGridViewController.swift */,
 				E4CDFDC623D9099D0067239A /* AppDelegate.swift */,
 				E4CDFDCF23D909A40067239A /* Assets.xcassets */,
 				E4CDFDD423D909A40067239A /* Info.plist */,
@@ -153,6 +159,8 @@
 				E4CDFDC823D9099D0067239A /* SceneDelegate.swift */,
 				E4CDFDCA23D9099D0067239A /* ViewController.swift */,
 				E4CDFDFC23D91CE10067239A /* FilmCell.swift */,
+				E4CEA35B23E080FA00D5808D /* MovieDetailsViewController.swift */,
+				E41ED03923E244DF00348F1E /* MovieGridCell.swift */,
 			);
 			path = SilverScreens;
 			sourceTree = "<group>";
@@ -416,6 +424,9 @@
 			files = (
 				E4CDFDCB23D9099D0067239A /* ViewController.swift in Sources */,
 				E4CDFDC723D9099D0067239A /* AppDelegate.swift in Sources */,
+				E4CEA35C23E080FA00D5808D /* MovieDetailsViewController.swift in Sources */,
+				E41ED03623E2418500348F1E /* MovieGridViewController.swift in Sources */,
+				E41ED03A23E244DF00348F1E /* MovieGridCell.swift in Sources */,
 				E4CDFDC923D9099D0067239A /* SceneDelegate.swift in Sources */,
 				E4CDFDF723D90FDC0067239A /* MoviesViewController.swift in Sources */,
 				E4CDFDFD23D91CE10067239A /* FilmCell.swift in Sources */,
